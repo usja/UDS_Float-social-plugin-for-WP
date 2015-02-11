@@ -85,12 +85,13 @@ position: relative;
     list-style-type: none;
     position: relative;
     width: 42px;
+    text-decoration: none !important;
 }
 
 #uds_float_social .top-left {
     left: 0;
     position: fixed;
-    top: 20%;
+    top: 30%;
 }
 #uds_float_social .top-right {
     right: 0;
