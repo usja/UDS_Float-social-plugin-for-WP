@@ -85,6 +85,8 @@ position: relative;
     list-style-type: none;
     position: relative;
     width: 42px;
+	text-decoration: none;
+	font-weight: normal;
 }
 
 #uds_float_social .top-left {
