@@ -110,7 +110,6 @@ function uds_fs_fload_styles()
 add_action('admin_menu', 'uds_fs_add_admin_menu');
 
 if ( !is_admin() ) {
- add_action('wp_print_scripts', 'uds_fs_fload_scripts');
  add_action('wp_print_styles', 'uds_fs_fload_styles');
  add_action('wp_footer','scr_html_structure');
 
