@@ -8,11 +8,6 @@ Author URI: http://uds.kiev.ua/
 */ 
 
 DEFINE('PLUGIN_URL', trailingslashit(WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__))));
-
-
-
-
-
 function uds_floatsocial_options_page() {
 		$uds_fs_fb = get_option('uds_fs_fb');
 		$uds_fs_vk = get_option('uds_fs_vk');
@@ -48,14 +43,9 @@ function uds_floatsocial_options_page() {
 </div>
 <?php
 }
-
-
-
 function uds_fs_add_admin_menu() {
 		add_options_page('Float Social', 'Float Social', 8, __FILE__, 'uds_floatsocial_options_page');
 }
-
-
 function  scr_html_structure(){
 		$uds_fs_fb = get_option('uds_fs_fb');
 		$uds_fs_vk = get_option('uds_fs_vk');
@@ -96,23 +86,14 @@ function  scr_html_structure(){
 	</div>
   <?php
 }
-
-
 function uds_fs_fload_styles()
 {
-
  wp_register_style('uds_fs_css', PLUGIN_URL . 'inc/css/style.css' );
  wp_enqueue_style('uds_fs_css');
 }
-
-
-
 add_action('admin_menu', 'uds_fs_add_admin_menu');
-
 if ( !is_admin() ) {
  add_action('wp_print_styles', 'uds_fs_fload_styles');
  add_action('wp_footer','scr_html_structure');
-
 }
-
 ?>
