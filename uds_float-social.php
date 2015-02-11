@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Float Social
-Plugin URI: http://wordpress.org/extend/plugins/rustolat/
+Plugin URI: http://uds.kiev.ua/
 Description: This plugin shows social icons
 Author: Uskov Andrei Uskov <uskov@uds.kiev.ua>
 Author URI: http://uds.kiev.ua/
