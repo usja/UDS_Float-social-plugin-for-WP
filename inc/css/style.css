@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-6ozcs3');
-	src:url('fonts/icomoon.eot?#iefix-6ozcs3') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-6ozcs3') format('woff'),
-		url('fonts/icomoon.ttf?-6ozcs3') format('truetype'),
-		url('fonts/icomoon.svg?-6ozcs3#icomoon') format('svg');
+	font-family: 'uds_fs';
+	src:url('fonts/uds_fs.eot?-6ozcs3');
+	src:url('fonts/uds_fs.eot?#iefix-6ozcs3') format('embedded-opentype'),
+		url('fonts/uds_fs.woff?-6ozcs3') format('woff'),
+		url('fonts/uds_fs.ttf?-6ozcs3') format('truetype'),
+		url('fonts/uds_fs.svg?-6ozcs3#uds_fs') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="uds_ico-"], [class*=" uds_ico-"] {
-	font-family: 'icomoon';
+	font-family: 'uds_fs';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -85,13 +85,12 @@ position: relative;
     list-style-type: none;
     position: relative;
     width: 42px;
-    text-decoration: none !important;
 }
 
 #uds_float_social .top-left {
     left: 0;
     position: fixed;
-    top: 30%;
+    top: 20%;
 }
 #uds_float_social .top-right {
     right: 0;
